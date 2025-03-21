@@ -9,3 +9,6 @@ if [[ -z $1 ]]; then
 fi
 
 PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
+
+element=$1
+# Logic for element lookup will go here
